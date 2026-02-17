@@ -1,0 +1,11 @@
+# number of receipts to print
+receipts = 3
+
+# number of items on each receipt
+items = 5
+
+for receipt in range(1, receipts + 1):
+    print(f"Receipt {receipt}")
+    for item in range(1, items + 1):
+        print(f" Item {item}")
+    print() # blank line between receipts
