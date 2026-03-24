@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar 24 19:14:09 2026
+
+@author: parth mane
+"""
+year = int(input("Enter year: "))
+if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0): 
+ print("Leap Year")
+else:
+ print("Not a Leap Year")
