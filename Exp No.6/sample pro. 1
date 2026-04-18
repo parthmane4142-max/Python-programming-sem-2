@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Apr 18 20:15:51 2026
+
+@author: parth mane
+"""
+
 # Step 1: Create and write to a file 
 file_name = "course_outcomes.txt"
 with open(file_name, "w") as file: 
