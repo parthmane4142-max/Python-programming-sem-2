@@ -29,3 +29,8 @@ print("\n--- Updated Attendance File ---")
 file = open("attendance.txt", "r")
 print(file.read())
 file.close()
+# Step 3: Display updated file content
+print("\n--- Updated Attendance File ---")
+file = open("attendance.txt", "r")
+print(file.read())
+file.close()
