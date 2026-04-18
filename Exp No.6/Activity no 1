@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Apr 18 20:15:51 2026
+
+@author: parth mane 
+"""
 # Program to store daily expenses in a file and calculate monthly total
 
 # Step 1: Store daily expenses in a file
@@ -22,3 +28,4 @@ file.close()
 
 print("\n--- Monthly Expense Report ---")
 print("Total Monthly Expense:", total)
+
