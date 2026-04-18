@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Apr 18 20:15:51 2026
+
+@author: parth mane
+"""
 # Program to read a complaint file and display all complaints
 
 # Step 1: Read the file
