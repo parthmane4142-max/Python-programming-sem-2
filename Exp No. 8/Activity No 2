@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Apr 21 11:02:11 2026
+
+@author: parth mane 
+"""
+# Registration Form - Age Validation
+
+try:
+    age = int(input("Enter your age: "))
+
+    if age <= 0:
+        print("Invalid age! Age must be greater than 0.")
+    elif age < 18:
+        print("Registration failed! You must be 18 or older.")
+    else:
+        print("Registration successful!")
+
+except ValueError:
+    print("Invalid input! Please enter a valid number.")
