@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Apr 21 11:02:11 2026
+
+@author: parth mane 
+"""
+
+# ATM Withdrawal System
+
+balance = 10000 # Initial balance
+
+withdraw_amount = float(input("Enter amount to withdraw: "))
+
+if withdraw_amount <= 0:
+    print("Invalid amount!")
+elif withdraw_amount > balance:
+    print("Insufficient balance!")
+else:
+    balance -= withdraw_amount
+    print("Withdrawal successful!")
+    print("Remaining balance:", balance)
