@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Apr 21 11:02:11 2026
+
+@author: parth mane 
+"""
+# Bill Splitter with Zero-Check
+
+try:
+    total_bill = float(input("Enter total bill amount: ₹"))
+    people = int(input("Enter number of people: "))
+
+    if people <= 0:
+        print("Invalid input! Number of people must be greater than 0.")
+    else:
+        share = total_bill / people
+        print(f"Each person should pay: ₹{share:.2f}")
+
+except ValueError:
+    print("Invalid input! Please enter correct numbers.")
